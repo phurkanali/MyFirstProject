@@ -1,0 +1,1 @@
+nexial -plan C:\projects\MyFirstProject\artifact\plan\MyFirstProject-plan.xlsx
