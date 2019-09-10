@@ -1,0 +1,93 @@
+2018-12-08 14:11:15,206|I|Thread-1|(DELAYED) nexial-core dev_0316 starting up...
+2018-12-08 14:11:15,207|I|Thread-1|(DELAYED) data file resolved as C:\Users\AL2075\AppData\Local\Temp\VZqch\MyFirstProject.data.xlsx
+2018-12-08 14:11:15,207|I|Thread-1|(DELAYED) input files and output directory resolved...
+2018-12-08 14:11:15,207|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2018-12-08 14:11:15,207|I|Thread-1|(DELAYED) [20181208_141114] [C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx] resolve RUN ID as 20181208_141114
+2018-12-08 14:11:15,213|I|Thread-1|(DELAYED) [20181208_141114] [C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx] new thread started
+2018-12-08 14:11:15,213|I|Thread-1|No predefined nexial-setup found
+2018-12-08 14:11:16,128|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2018-12-08 14:11:16,138|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2018-12-08 14:11:16,139|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2018-12-08 14:11:16,148|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2018-12-08 14:11:16,298|I|Thread-1|[20181208_141114] executing C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx. [1] total 1
+2018-12-08 14:11:16,305|I|Thread-1|[20181208_141114] create directory C:\projects\MyFirstProject\output\20181208_141114\captures
+2018-12-08 14:11:16,307|I|Thread-1|[20181208_141114] create directory C:\projects\MyFirstProject\output\20181208_141114\logs
+2018-12-08 14:11:17,219|I|Thread-1|macro(s) found and merged; C:\projects\MyFirstProject\output\20181208_141114\MyFirstProject.20181208_141116.001.xlsx will need to be saved
+2018-12-08 14:11:17,222|I|Thread-1|[20181208_141114] merging test data to tmp file C:\projects\MyFirstProject\output\20181208_141114\MyFirstProject.20181208_141116.001.xlsx
+2018-12-08 14:11:17,344|I|Thread-1|[20181208_141114] test script and test data merged to C:\projects\MyFirstProject\output\20181208_141114\MyFirstProject.20181208_141116.001.xlsx
+2018-12-08 14:11:18,540|I|Thread-1|STARTS
+2018-12-08 14:11:18,583|I|Thread-1|MyFirstProject.20181208_141116.001 - executing iteration #1; Iteration #1 of 1
+2018-12-08 14:11:18,598|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario - executing test scenario
+2018-12-08 14:11:18,601|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #1 - executing activity
+2018-12-08 14:11:19,221|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #1|#  5|base.verbose(text) - executing verbose(text)(Hello World! It's now $(sysdate|now|yyyy-MM-dd HH:mm:ss.S))
+2018-12-08 14:11:19,419|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #1|#  5|base.verbose(text) - Hello World! It's now 2018-12-08 14:11:19.230
+2018-12-08 14:11:19,601|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #1|#  5|base.verbose(text) - PASS 
+2018-12-08 14:11:19,604|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #2 - executing activity
+2018-12-08 14:11:20,222|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #2|#  6|base.save(var,value) - executing save(var,value)(num, 10)
+2018-12-08 14:11:20,228|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #2|#  6|base.save(var,value) - PASS stored '10' as ${num}
+2018-12-08 14:11:20,228|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #3 - executing activity
+2018-12-08 14:11:20,837|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #3|#  7|base.section(steps) - executing section(steps)(3)
+2018-12-08 14:11:20,843|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #3|#  7|base.section(steps) - PASS 
+2018-12-08 14:11:20,848|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #4 - executing activity
+2018-12-08 14:11:21,455|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #4|#  8|base.section(steps) - executing section(steps)(4)
+2018-12-08 14:11:21,466|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #4|#  8|base.section(steps) - PASS 
+2018-12-08 14:11:21,473|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #5 - executing activity
+2018-12-08 14:11:22,090|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #5|#  9|base.verbose(text) - executing verbose(text)(${num} ${a})
+2018-12-08 14:11:22,097|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #5|#  9|base.verbose(text) - 10 
+2018-12-08 14:11:22,108|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #5|#  9|base.verbose(text) - PASS 
+2018-12-08 14:11:22,111|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #6 - executing activity
+2018-12-08 14:11:22,725|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #6|# 10|base.section(steps) - executing section(steps)(1)
+2018-12-08 14:11:22,738|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #6|# 10|base.section(steps) - PASS 
+2018-12-08 14:11:23,364|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #6|# 11|base.verbose(text) - executing verbose(text)(Enter)
+2018-12-08 14:11:23,381|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #6|# 11|base.verbose(text) - Enter
+2018-12-08 14:11:23,397|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #6|# 11|base.verbose(text) - PASS 
+2018-12-08 14:11:23,422|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #7 - executing activity
+2018-12-08 14:11:24,032|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #7|# 12|base.section(steps) - executing section(steps)(1)
+2018-12-08 14:11:24,078|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #7|# 12|base.section(steps) - PASS 
+2018-12-08 14:11:24,689|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #7|# 13|base.save(var,value) - executing save(var,value)(a, 11)
+2018-12-08 14:11:24,714|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #7|# 13|base.save(var,value) - PASS stored '11' as ${a}
+2018-12-08 14:11:24,732|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #8 - executing activity
+2018-12-08 14:11:25,350|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #8|# 14|base.verbose(text) - executing verbose(text)(${a})
+2018-12-08 14:11:25,359|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #8|# 14|base.verbose(text) - 11
+2018-12-08 14:11:25,362|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario|Test Case #8|# 14|base.verbose(text) - PASS 
+2018-12-08 14:11:25,437|I|Thread-1|MyFirstProject.20181208_141116.001|Test Scenario - saving test scenario
+2018-12-08 14:11:25,770|I|Thread-1|[20181208_141114] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\MyFirstProject\output\20181208_141114\MyFirstProject.20181208_141116.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 7157 ms
+» Test Steps:     10
+» Error(s):       0
+
+
+
+2018-12-08 14:11:28,141|I|Thread-1|[20181208_141114] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 13088 ms
+» Iterations:     [1] total 1
+» Test Steps:     10
+» Passed:         10
+» Error(s):       0
+
+
+
+2018-12-08 14:11:29,114|I|main|[20181208_141114] [C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx] now completed
+2018-12-08 14:11:29,118|I|main|[20181208_141114] all execution thread(s) have terminated
+2018-12-08 14:11:29,127|I|main|[20181208_141114] test run completed in about 14 seconds
+2018-12-08 14:11:29,135|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2018-12-08 14:11:29,160|I|main|skipped email notification as configured
+2018-12-08 14:11:29,165|I|main|Exiting Nexial...
+2018-12-08 14:11:29,171|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 14 sec.
+| » Test Steps:     10
+| » Passed:         10
+| » Failed:         0
+| » Success Rate:   100.00%
+\---------------------------------------------------------------nexial-core dev_0316-
+
+2018-12-08 14:11:29,176|I|main|ALL PASSED!

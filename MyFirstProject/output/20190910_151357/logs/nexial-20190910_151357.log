@@ -1,0 +1,94 @@
+2019-09-10 15:13:57,983|I|Thread-1|(DELAYED) nexial-core dev_0316 starting up...
+2019-09-10 15:13:57,990|I|Thread-1|(DELAYED) validating test script as C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx
+2019-09-10 15:13:57,990|I|Thread-1|(DELAYED) validating data file as C:\projects\MyFirstProject\artifact\data\MyFirstProject.data.xlsx
+2019-09-10 15:13:57,990|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-10 15:13:57,991|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-10 15:13:57,991|I|Thread-1|(DELAYED) [20190910_151357] [C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx] resolve RUN ID as 20190910_151357
+2019-09-10 15:13:57,995|I|Thread-1|(DELAYED) [20190910_151357] [C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx] new thread started
+2019-09-10 15:13:57,995|I|Thread-1|No predefined nexial-setup found
+2019-09-10 15:13:58,961|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-10 15:13:58,962|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-10 15:13:58,963|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-10 15:13:58,974|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-10 15:13:59,137|I|Thread-1|[20190910_151357] executing C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx. [1] total 1
+2019-09-10 15:13:59,142|I|Thread-1|[20190910_151357] create directory C:\projects\MyFirstProject\output\20190910_151357\captures
+2019-09-10 15:13:59,144|I|Thread-1|[20190910_151357] create directory C:\projects\MyFirstProject\output\20190910_151357\logs
+2019-09-10 15:14:01,063|I|Thread-1|macro(s) found and merged; C:\projects\MyFirstProject\output\20190910_151357\MyFirstProject-plan.001,MyFirstProject.20190910_151359.001.xlsx will need to be saved
+2019-09-10 15:14:01,066|I|Thread-1|[20190910_151357] merging test data to tmp file C:\projects\MyFirstProject\output\20190910_151357\MyFirstProject-plan.001,MyFirstProject.20190910_151359.001.xlsx
+2019-09-10 15:14:01,238|I|Thread-1|[20190910_151357] test script and test data merged to C:\projects\MyFirstProject\output\20190910_151357\MyFirstProject-plan.001,MyFirstProject.20190910_151359.001.xlsx
+2019-09-10 15:14:02,591|I|Thread-1|STARTS
+2019-09-10 15:14:02,628|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001 - executing iteration #1; Iteration #1 of 1
+2019-09-10 15:14:02,639|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario - executing test scenario
+2019-09-10 15:14:02,641|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #1 - executing activity
+2019-09-10 15:14:03,243|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #1|#  5|base.verbose(text) - executing verbose(text)(Hello World! It's now $(sysdate|now|yyyy-MM-dd HH:mm:ss.S))
+2019-09-10 15:14:03,433|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #1|#  5|base.verbose(text) - Hello World! It's now 2019-09-10 15:14:03.252
+2019-09-10 15:14:03,613|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #1|#  5|base.verbose(text) - PASS 
+2019-09-10 15:14:03,616|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #2 - executing activity
+2019-09-10 15:14:04,217|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #2|#  6|base.save(var,value) - executing save(var,value)(num, 10)
+2019-09-10 15:14:04,226|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #2|#  6|base.save(var,value) - PASS stored '10' as ${num}
+2019-09-10 15:14:04,235|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #3 - executing activity
+2019-09-10 15:14:04,839|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #3|#  7|base.section(steps) - executing section(steps)(3)
+2019-09-10 15:14:04,845|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #3|#  7|base.section(steps) - PASS 
+2019-09-10 15:14:04,848|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #4 - executing activity
+2019-09-10 15:14:05,451|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #4|#  8|base.section(steps) - executing section(steps)(4)
+2019-09-10 15:14:05,454|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #4|#  8|base.section(steps) - PASS 
+2019-09-10 15:14:05,455|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #5 - executing activity
+2019-09-10 15:14:06,057|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #5|#  9|base.verbose(text) - executing verbose(text)(${num} ${a})
+2019-09-10 15:14:06,059|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #5|#  9|base.verbose(text) - 10 
+2019-09-10 15:14:06,067|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #5|#  9|base.verbose(text) - PASS 
+2019-09-10 15:14:06,069|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #6 - executing activity
+2019-09-10 15:14:06,670|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #6|# 10|base.section(steps) - executing section(steps)(1)
+2019-09-10 15:14:06,672|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #6|# 10|base.section(steps) - PASS 
+2019-09-10 15:14:07,276|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #6|# 11|base.verbose(text) - executing verbose(text)(Enter)
+2019-09-10 15:14:07,278|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #6|# 11|base.verbose(text) - Enter
+2019-09-10 15:14:07,283|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #6|# 11|base.verbose(text) - PASS 
+2019-09-10 15:14:07,286|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #7 - executing activity
+2019-09-10 15:14:07,888|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #7|# 12|base.section(steps) - executing section(steps)(1)
+2019-09-10 15:14:07,898|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #7|# 12|base.section(steps) - PASS 
+2019-09-10 15:14:08,502|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #7|# 13|base.save(var,value) - executing save(var,value)(a, 11)
+2019-09-10 15:14:08,505|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #7|# 13|base.save(var,value) - PASS stored '11' as ${a}
+2019-09-10 15:14:08,509|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #8 - executing activity
+2019-09-10 15:14:09,110|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #8|# 14|base.verbose(text) - executing verbose(text)(${a})
+2019-09-10 15:14:09,135|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #8|# 14|base.verbose(text) - 11
+2019-09-10 15:14:09,139|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario|Test Case #8|# 14|base.verbose(text) - PASS 
+2019-09-10 15:14:09,160|I|Thread-1|MyFirstProject-plan.001,MyFirstProject.20190910_151359.001|Test Scenario - saving test scenario
+2019-09-10 15:14:09,432|I|Thread-1|[20190910_151357] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\MyFirstProject\output\20190910_151357\MyFirstProject-plan.001,MyFirstProject.20190910_151359.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 6794 ms
+» Test Steps:     10
+» Error(s):       0
+
+
+
+2019-09-10 15:14:12,014|I|Thread-1|[20190910_151357] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 14228 ms
+» Iterations:     [1] total 1
+» Test Steps:     10
+» Passed:         10
+» Error(s):       0
+
+
+
+2019-09-10 15:14:12,736|I|main|[20190910_151357] [C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx] now completed
+2019-09-10 15:14:12,744|I|main|[20190910_151357] all execution thread(s) have terminated
+2019-09-10 15:14:12,758|I|main|[20190910_151357] test run completed in about 15 seconds
+2019-09-10 15:14:12,769|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-10 15:14:12,781|I|main|skipped email notification as configured
+2019-09-10 15:14:12,823|I|main|Exiting Nexial...
+2019-09-10 15:14:12,863|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 15 sec.
+| » Test Steps:     10
+| » Passed:         10
+| » Failed:         0
+| » Success Rate:   100.00%
+\---------------------------------------------------------------nexial-core dev_0316-
+
+2019-09-10 15:14:12,870|I|main|ALL PASSED!

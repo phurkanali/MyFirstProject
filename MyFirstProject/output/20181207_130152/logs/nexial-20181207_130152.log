@@ -1,0 +1,31 @@
+2018-12-07 13:01:53,199|I|Thread-1|(DELAYED) nexial-core dev_0316 starting up...
+2018-12-07 13:01:53,199|I|Thread-1|(DELAYED) data file resolved as C:\Users\AL2075\AppData\Local\Temp\kapnG\MyFirstProject.data.xlsx
+2018-12-07 13:01:53,199|I|Thread-1|(DELAYED) input files and output directory resolved...
+2018-12-07 13:01:53,199|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2018-12-07 13:01:53,199|I|Thread-1|(DELAYED) [20181207_130152] [C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx] resolve RUN ID as 20181207_130152
+2018-12-07 13:01:53,199|I|Thread-1|(DELAYED) [20181207_130152] [C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx] new thread started
+2018-12-07 13:01:53,209|I|Thread-1|No predefined nexial-setup found
+2018-12-07 13:01:54,993|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2018-12-07 13:01:54,997|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2018-12-07 13:01:55,001|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2018-12-07 13:01:55,013|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2018-12-07 13:01:55,248|I|Thread-1|[20181207_130152] executing C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx. [1] total 1
+2018-12-07 13:01:55,251|I|Thread-1|[20181207_130152] create directory C:\projects\MyFirstProject\output\20181207_130152\captures
+2018-12-07 13:01:55,251|I|Thread-1|[20181207_130152] create directory C:\projects\MyFirstProject\output\20181207_130152\logs
+2018-12-07 13:01:56,735|I|main|[20181207_130152] [C:\projects\MyFirstProject\artifact\script\MyFirstProject.xlsx] now completed
+2018-12-07 13:01:56,735|I|main|[20181207_130152] all execution thread(s) have terminated
+2018-12-07 13:01:56,735|I|main|[20181207_130152] test run completed in about 4 seconds
+2018-12-07 13:01:56,735|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2018-12-07 13:01:56,735|I|main|skipped email notification as configured
+2018-12-07 13:01:56,735|I|main|Exiting Nexial...
+2018-12-07 13:01:56,735|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 4 sec.
+| » Test Steps:     0
+| » Passed:         0
+| » Failed:         0
+| » Success Rate:   0.00%
+\---------------------------------------------------------------nexial-core dev_0316-
+
+2018-12-07 13:01:56,735|E|main|failure found; success rate is 0.00%

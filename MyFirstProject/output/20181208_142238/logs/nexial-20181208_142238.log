@@ -1,0 +1,93 @@
+2018-12-08 14:22:38,889|I|Thread-1|(DELAYED) nexial-core dev_0316 starting up...
+2018-12-08 14:22:38,900|I|Thread-1|(DELAYED) data file resolved as C:\Users\AL2075\AppData\Local\Temp\liqva\QA.data.xlsx
+2018-12-08 14:22:38,901|I|Thread-1|(DELAYED) input files and output directory resolved...
+2018-12-08 14:22:38,901|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2018-12-08 14:22:38,901|I|Thread-1|(DELAYED) [20181208_142238] [C:\projects\MyFirstProject\artifact\script\QA.xlsx] resolve RUN ID as 20181208_142238
+2018-12-08 14:22:38,901|I|Thread-1|(DELAYED) [20181208_142238] [C:\projects\MyFirstProject\artifact\script\QA.xlsx] new thread started
+2018-12-08 14:22:38,901|I|Thread-1|No predefined nexial-setup found
+2018-12-08 14:22:39,822|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2018-12-08 14:22:39,834|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2018-12-08 14:22:39,835|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2018-12-08 14:22:39,838|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2018-12-08 14:22:39,993|I|Thread-1|[20181208_142238] executing C:\projects\MyFirstProject\artifact\script\QA.xlsx. [1] total 1
+2018-12-08 14:22:40,002|I|Thread-1|[20181208_142238] create directory C:\projects\MyFirstProject\output\20181208_142238\captures
+2018-12-08 14:22:40,003|I|Thread-1|[20181208_142238] create directory C:\projects\MyFirstProject\output\20181208_142238\logs
+2018-12-08 14:22:41,751|I|Thread-1|macro(s) found and merged; C:\projects\MyFirstProject\output\20181208_142238\QA.20181208_142240.001.xlsx will need to be saved
+2018-12-08 14:22:41,753|I|Thread-1|[20181208_142238] merging test data to tmp file C:\projects\MyFirstProject\output\20181208_142238\QA.20181208_142240.001.xlsx
+2018-12-08 14:22:41,933|I|Thread-1|[20181208_142238] test script and test data merged to C:\projects\MyFirstProject\output\20181208_142238\QA.20181208_142240.001.xlsx
+2018-12-08 14:22:43,299|I|Thread-1|STARTS
+2018-12-08 14:22:43,338|I|Thread-1|QA.20181208_142240.001 - executing iteration #1; Iteration #1 of 1
+2018-12-08 14:22:43,352|I|Thread-1|QA.20181208_142240.001|Test Scenario - executing test scenario
+2018-12-08 14:22:43,356|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #1 - executing activity
+2018-12-08 14:22:43,964|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #1|#  5|base.verbose(text) - executing verbose(text)(Hello World! It's now $(sysdate|now|yyyy-MM-dd HH:mm:ss.S))
+2018-12-08 14:22:44,220|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #1|#  5|base.verbose(text) - Hello World! It's now 2018-12-08 14:22:43.975
+2018-12-08 14:22:44,411|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #1|#  5|base.verbose(text) - PASS 
+2018-12-08 14:22:44,424|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #2 - executing activity
+2018-12-08 14:22:45,028|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #2|#  6|base.save(var,value) - executing save(var,value)(num, 10)
+2018-12-08 14:22:45,032|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #2|#  6|base.save(var,value) - PASS stored '10' as ${num}
+2018-12-08 14:22:45,032|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #3 - executing activity
+2018-12-08 14:22:45,650|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #3|#  7|base.section(steps) - executing section(steps)(3)
+2018-12-08 14:22:45,657|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #3|#  7|base.section(steps) - PASS 
+2018-12-08 14:22:45,660|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #4 - executing activity
+2018-12-08 14:22:46,265|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #4|#  8|base.section(steps) - executing section(steps)(4)
+2018-12-08 14:22:46,271|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #4|#  8|base.section(steps) - PASS 
+2018-12-08 14:22:46,273|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #5 - executing activity
+2018-12-08 14:22:46,889|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #5|#  9|base.verbose(text) - executing verbose(text)(${num} ${a})
+2018-12-08 14:22:46,894|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #5|#  9|base.verbose(text) - 10 
+2018-12-08 14:22:46,902|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #5|#  9|base.verbose(text) - PASS 
+2018-12-08 14:22:46,907|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #6 - executing activity
+2018-12-08 14:22:47,514|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #6|# 10|base.section(steps) - executing section(steps)(1)
+2018-12-08 14:22:47,520|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #6|# 10|base.section(steps) - PASS 
+2018-12-08 14:22:48,136|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #6|# 11|base.verbose(text) - executing verbose(text)(Enter)
+2018-12-08 14:22:48,141|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #6|# 11|base.verbose(text) - Enter
+2018-12-08 14:22:48,150|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #6|# 11|base.verbose(text) - PASS 
+2018-12-08 14:22:48,156|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #7 - executing activity
+2018-12-08 14:22:48,777|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #7|# 12|base.section(steps) - executing section(steps)(1)
+2018-12-08 14:22:48,784|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #7|# 12|base.section(steps) - PASS 
+2018-12-08 14:22:49,390|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #7|# 13|base.save(var,value) - executing save(var,value)(a, 11)
+2018-12-08 14:22:49,397|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #7|# 13|base.save(var,value) - PASS stored '11' as ${a}
+2018-12-08 14:22:49,399|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #8 - executing activity
+2018-12-08 14:22:50,011|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #8|# 14|base.verbose(text) - executing verbose(text)(${a})
+2018-12-08 14:22:50,015|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #8|# 14|base.verbose(text) - 11
+2018-12-08 14:22:50,024|I|Thread-1|QA.20181208_142240.001|Test Scenario|Test Case #8|# 14|base.verbose(text) - PASS 
+2018-12-08 14:22:50,082|I|Thread-1|QA.20181208_142240.001|Test Scenario - saving test scenario
+2018-12-08 14:22:50,373|I|Thread-1|[20181208_142238] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\MyFirstProject\output\20181208_142238\QA.20181208_142240.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 7017 ms
+» Test Steps:     10
+» Error(s):       0
+
+
+
+2018-12-08 14:22:53,294|I|Thread-1|[20181208_142238] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\MyFirstProject\artifact\script\QA.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 14590 ms
+» Iterations:     [1] total 1
+» Test Steps:     10
+» Passed:         10
+» Error(s):       0
+
+
+
+2018-12-08 14:22:53,846|I|main|[20181208_142238] [C:\projects\MyFirstProject\artifact\script\QA.xlsx] now completed
+2018-12-08 14:22:53,919|I|main|[20181208_142238] all execution thread(s) have terminated
+2018-12-08 14:22:53,923|I|main|[20181208_142238] test run completed in about 15 seconds
+2018-12-08 14:22:53,925|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2018-12-08 14:22:53,926|I|main|skipped email notification as configured
+2018-12-08 14:22:53,934|I|main|Exiting Nexial...
+2018-12-08 14:22:53,938|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 15 sec.
+| » Test Steps:     10
+| » Passed:         10
+| » Failed:         0
+| » Success Rate:   100.00%
+\---------------------------------------------------------------nexial-core dev_0316-
+
+2018-12-08 14:22:53,939|I|main|ALL PASSED!
